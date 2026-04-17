@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic vs Non-Semantic Practice</title>
+    <style>
+        /* Adding some basic styles just so you can see the boxes */
+        header, nav, section, footer {
+            border: 2px solid #333;
+            margin: 10px 0;
+            padding: 15px;
+        }
+        .box {
+            border: 2px dashed red;
+            padding: 10px;
+        }
+        .highlight {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Practice Site</h1>
+        
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#">About</a> | 
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Main Article Section</h2>
+        
+        <p>This is a paragraph inside a semantic section.</p>
+
+        <div class="box">
+            <h3>I am a Div</h3>
+            <p>I don't have a special meaning, I'm just a container used for layout or styling.</p>
+            
+            <p>You can use a <span class="highlight">span tag</span> to style specific words inside a sentence.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Semantic Learning Project</p>
+    </footer>
+
+</body>
+</html>
