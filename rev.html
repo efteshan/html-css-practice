@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 10px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- h1 tag: largest font
+    h6 tag: smallest font
+    p tag: for paragraph
+    hr tag: horizontal line
+    br tag: linebreak -->
+
+    <!-- ordered list -->
+    <ol>
+        <li>bangladesh</li>
+        <li>USA</li>
+        <li>Iran</li>
+    </ol>
+
+    <!-- unordered list -->
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+    </ul>
+
+    <!-- Des. list -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>hot cofee</dd>
+        <dd>cold coffee</dd>
+        <dt>water</dt>
+        <dd>cold water</dd>
+        <dd>hot water</dd>
+    </dl>
+
+    <a href="https://www.google.com/">GOOGLE</a>
+    <img src="cat.jpeg" alt="Image not found">
+
+    <!-- video -->
+    <video width="350" height="350" controls autoplay>
+        <source src="example.mp4" type="video/mp4">
+    </video>
+
+    <!-- add audio -->
+    <audio controls>
+        <source src="example.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- semantic vs non-semantic tags -->
+    <!-- semantic: tags that has meeaning. <p> <nav><header><footer> <section>
+         non-semantic: tags without meaning. <div><span> -->
+    <!-- table -->
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Cell1</th>
+            <th rowspan="3">Cell2</th>
+            <th>Cell3</th>
+        </tr>
+        <tr>
+            <td>Cell4</td>
+            <td>Cell5</td>
+        </tr>
+        <tr>
+            <td style="background-color: brown; color: white;">Cell6</td>
+            <td rowspan="2">Cell7</td>
+        </tr>
+        <tr>
+            <td style="background-color: brown; color: white;">Cell8</td>
+            <td>Cell9</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <h1>welcome to form tutorial</h1>
+    <p>Enter the details</p>
+    <form>
+        <p>
+            <label>your first name</label><br>
+            <input type="text">
+        </p>
+        <p>
+            <label>your last name</label><br>
+            <input type="text">
+        </p>
+        <p>
+            <label>age</label><br>
+            <input type="number" value="2">
+        </p>
+        <p>
+            <label>place</label><br>
+            <input type="radio" name="size">
+            <label>New york</label><br>
+
+            <input type="radio" name="size" checked>
+            <label>paris</label>
+        </p>
+        <p>
+            <label>Hobbies</label><br>
+            <input type="checkbox" name="hobbies" checked>
+            <label>sports</label>
+
+            <input type="checkbox" name="hobbies">
+            <label>Music</label>
+        </p>
+        <p>sfdsjf</p>
+        <input type="submit" value="submit order form">
+        <input type="reset" value="reset">
+    </form>
+
+    <!-- class vs id -->
+    <!-- class: .cnassname. 1 class name can be applied to multiple html tags. same style for multiple elements
+          id: #idname. a name can be appled to only one element. only for a unique design -->
+
+    <div></div>
+    <div></div>
+
+</body>
+
+</html>
